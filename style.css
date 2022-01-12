@@ -29,7 +29,7 @@ h1{
     margin-left: 34%;
     color: #f9f9f9;
     padding: 15px 30px 15px 30px;
-
+    display: none;
 }
 .input{
     padding: 10px 10px;
@@ -43,7 +43,7 @@ h1{
     padding-left: 110px;
 }
 #submit{
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 5px 50px;
     border-radius: 5px;
 }
@@ -51,4 +51,27 @@ h1{
     margin-top: 10px;
     width: 12%;
     height: 12%;
+}
+.containerTable{
+    background-color: white;
+    width: 80%;
+    margin: 20px;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    margin: 0px;
+}
+tbody:nth-child(even){
+    background-color: #ddd;
+}
+.deleteFila{
+    margin: 20px;
+}
+th{
+    padding: 10px;
 }
