@@ -1,5 +1,5 @@
 # library-project
-Library created with HTML, CSS and JavaScript and Web Storage API
+Library created with HTML, CSS and JavaScript.
 
 A book collection manager, where you can add, remove, and update books.
 
