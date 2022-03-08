@@ -1,10 +1,14 @@
 let myLibrary = [];
 
-function Book(title, author, pages, id){
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.id = id;
+class Book{
+
+    constructor(title, author, pages, id){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.id = id;
+    }
+
 };
 const deleteFile = document.createElement("button");
 
